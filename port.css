@@ -8,7 +8,7 @@
     font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 html, body {
-    height: 110%;
+    height: 100%;
     overflow: hidden;
   }
   
@@ -30,7 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
+    min-height: 100vh;
     background: var(--bg-color);
     color: var(--text-color);
     /* overflow: hidden; */
@@ -85,14 +85,14 @@ body{
 .book {
     position: relative;
     width: 100%;
-    height: 110%;
+    height: 100%;
     display: flex;
     perspective: 250rem;
 }
 .book .book-page{
     position: absolute;
     width: 50%;
-    height: 110%;
+    height: 100%;
     background: var(--pages-color);
     box-shadow: 0 0 .6rem rgba(0, 0, .1);
     display: flex;

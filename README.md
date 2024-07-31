@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="port.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Portfolio bruno website</title>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="cover cover-left"></div>
-        <div class="cover cover-right"></div>
-        <div class="book">
-            <!-- page de profil -->
-            <div class="book-page page-left">
-                <div class="page-profil">
-                  <img src="./imgg/br3n.jpg" alt="mon image"> 
-                   <h1>Bruno M Cordeiro</h1>
+               <h1>Bruno M Cordeiro</h1>
                    <h3>Développeur web</h3>
                    <div class="social-media">
                     <a href="#"><i class='bx bxl-instagram'></i></a>

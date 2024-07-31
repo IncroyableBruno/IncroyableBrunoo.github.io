@@ -18,13 +18,13 @@
                   <img src="./imgg/br3n.jpg" alt="mon image"> 
                    <h1>Bruno M Cordeiro</h1>
                    <h3>Développeur web</h3>
-
                    <div class="social-media">
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                     <a href="https://www.linkedin.com/in/bruno-manuel-cordeiro-094292247"><i class='bx bxl-linkedin-square'></i></a>
                     <a href="https://github.com/IncroyableBruno"><i class='bx bxl-github'></i></a>
                    </div>
-                   <p> Développeur web passionné, enquête constante d'apprentissage et d'amélioration.Spécialisé dans les technologies front-end telles que HTML, CSS, JavaScript et les frameworks associés. Toujours curieux d'explorer de nouveaux domaines et d'apprendre de nouvelles compétences. Aimant relever des défis et travailler en équipe, je m'efforce de produire un travail de qualité et de contribuer activement à la communauté du développement web.</p>
+                   <p> Développeur web passionné, enquête constante d'apprentissage et d'amélioration.Spécialisé dans les technologies                             front-end telles que HTML, CSS, JavaScript et les frameworks associés. Toujours curieux d'explorer de nouveaux                             domaines et d'apprendre de nouvelles compétences. Aimant relever des défis et travailler en équipe, je                                                                                                                                                                           m'efforce de produire un travail de qualité et de contribuer activement à la communauté du développement web.
+                   </p>
                    <div class="btn-box">
                     <a href="./cv/cv.pdf" class="btn">Télécharger CV</a>
                     <a href="#" class="btn contact-me">Contactez moi</a>
@@ -43,76 +43,60 @@
                             <p>Création  de site internet et gestion de base de données.
                             </p> 
                         </div>
-                        
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2022-2023</span>
                             <h3>ASSISTANT INFORMATIQUE - Oise Télécom</h3>
                             <p>Assistance en instalation  de logiciels de bureautique en informatique. </p>
                         </div>
-
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2020-2022</span>
                             <h3>ANIMATEUR SCOLAIRE - La Fontaine</h3>
                             <p>Animateur au soutien scolaire et Accompagnement scolaire.</p>
                         </div>
-                        
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2017-2019</span>
                             <h3>DESIGNER GRAPHIQUE - Cfitel</h3>
                             <p>Création de logos, panneaux publicitaires, bannières, cartes de visite, flyers, produits ou services.</p>
                         </div>
                     </div>
-
                     <span class="number-page">1</span>
-
                     <!-- next bouton -->
                     <span class="nextprev-btn" data-page="turn-1">
                         <i class='bx bx-chevron-right'></i>
                     </span>
                 </div>
-               
                  <!-- page 2 (formations) -->
                 <div class="page-back">
                     <h1 class="title"> Formation</h1>
-
                     <div class="workeduc-box">
-
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2024</span>
                             <h3>Préparation Titre Professionnel  RNCP de Développeur D’applications / Devops</h3>
                             <p>Bac+3 Niveau 6 - l’Ecole Supérieure des Métiers du Numériques à Compiègne.</p>
                         </div>
-
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2023</span>
                             <h3>Titre Professionnel - SJT </h3>
                             <p>Développeur Web et Web Mobile RNCP Bac+2</p>
                         </div>
-                        
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2014-2017</span>
                             <h3>Baccalauréat - ITEL</h3>
                             <p>Eléctronique et Télécommunications</p>
                         </div>
-                        
                     </div>
-
-
                     <span class="number-page">2</span>
-
                     <!-- prev bouton -->
                     <span class="nextprev-btn back" data-page="turn-1">
                         <i class='bx bx-chevron-left'></i>
                     </span>
                 </div>
             </div>
-
              <!-- page 3 & 4 -->
              <div class="book-page page-right turn" id="turn-2">
                 <!-- page 3(job) -->
                 <div class="page-front">
                     <h1 class="title">Job</h1>
-
                     <div class="job-box">
                         <div class="job-content">
                            <i class='bx bx-code-alt'></i>
@@ -121,21 +105,18 @@
                             </p>
                            <a href="#" class="btn">Lire plus</a> 
                         </div>
-
                         <div class="job-content">
                             <i class='bx bx-code-alt'></i>
                             <h3>Assistant Informatique</h3>
                             <p>Assistance en instalation  de logiciels informatique.</p>
                             <a href="#" class="btn">Lire plus</a> 
                          </div>
-
                          <div class="job-content">
                             <i class='bx bx-bar-book-alt'></i>
                             <h3>Animateur Scolaire</h3>
                             <p>Animateur au soutien scolaire et Accompagnement.</p> 
                             <a href="#" class="btn">Lire plus</a> 
                          </div>
-
                          <div class="job-content">
                             <i class='bx bx-search'></i>
                             <h3>Designer Graphique</h3>
@@ -143,19 +124,15 @@
                             <a href="#" class="btn">Lire plus</a>
                          </div>
                     </div>
-
                     <span class="number-page">3</span>
-
                     <!-- next bouton -->
                     <span class="nextprev-btn" data-page="turn-2">
                         <i class='bx bx-chevron-right'></i>
                     </span>
                 </div>
-
                 <!-- page 4(skills) -->
                 <div class="page-back">
                     <h1 class="title">Skills</h1>
-
                     <div class="skills-box">
                         <div class="skills-content">
                             <h3>Front-End</h3>
@@ -166,7 +143,6 @@
                                 <span><i class='bx bxl-bootstrap'></i>Bootstrap</span>
                             </div>       
                         </div>
-
                         <div class="skills-content">
                             <h3>BACK-End</h3>
                             <div class="content">
@@ -176,7 +152,6 @@
                                 <span><i class='bx bxl-sql'></i>NoSQL</span>
                             </div>       
                         </div>
-
                         <div class="skills-content">
                             <h3>UI/UX Design</h3>
                             <div class="content">
@@ -186,25 +161,21 @@
                         </div>
                     </div>
                     <span class="number-page">4</span>
-
                     <!-- next bouton -->
                     <span class="nextprev-btn back" data-page="turn-2">
                         <i class='bx bx-chevron-left'></i>
                     </span>
                 </div>
              </div>
-
               <!-- page 5 & 6 -->
             <div class="book-page page-right turn" id="turn-3">
                 <!-- page 5 (dernier projet ou portfolio)  -->
                 <div class="page-front">
                     <h1 class="title">Dernier Projet</h1>
-
                     <div class="portfolio-box">
                         <div class="img-box">
                             <img src="./imgg/Afci.jpg" alt="">
                         </div>
-                        
                         <div class="info-box">
                             <div class="info-title">
                                 <h3>Nom de Projet</h3>
@@ -212,25 +183,20 @@
                             </div>
                             <p>Play'listen</p>
                             </div>
-        
                         <div class="btn-box">
                             <a href="https://github.com/IncroyableBruno/playbruno/tree/main/PLAY%20by%20BRUNOo" class="btn">Source code</a>
                             <a href="https://github.com/Stage-SJT-YBDL/saga-decor" class="btn">Plus de Projets</a>
                         </div>
                     </div> 
-
                     <span class="number-page">5</span>
-
                     <!-- next bouton -->
                     <span class="nextprev-btn" data-page="turn-3">
                         <i class='bx bx-chevron-right'></i>
                     </span>
-                </div>      
-              
+                </div>          
                 <!-- page 6 (contactez moi)  -->
                 <div class="page-back">
                     <h1 class="title">Contactez Moi!</h1>
-
                     <div class="contact-box">
                         <form action="https://formspree.io/f/movaddle" method="POST">
                             <input type="text" class="field" placeholder="Nom" name="name" required>
@@ -239,14 +205,11 @@
                             <input type="submit" class="btn" value="Envoyer Message">
                           </form>
                     </div>
-
                     <span class="number-page">6</span>
-
                     <!-- next bouton -->
                     <span class="nextprev-btn back" data-page="turn-3">
                         <i class='bx bx-chevron-left'></i>
                     </span>
-
                     <a href="#" class="back-profil">
                         <p>Profil</p>
                         <i class='bx bxs-user'></i>
@@ -255,108 +218,6 @@
             </div> 
         </div>
     </div>
-    <script>
-        // tourner la page quand on clique le bouton avancer ou retourner (next et prev)
-const pageTurnBtn = document.querySelectorAll('.nextprev-btn');
-
-pageTurnBtn.forEach((el, index) =>{
-    el.onclick = () => {
-        const pageTurnId = el.getAttribute('data-page');
-        const pageTurn = document.getElementById(pageTurnId);
-
-        if (pageTurn.classList.contains('turn')) {
-            pageTurn.classList.remove('turn'); 
-            setTimeout(() =>{
-                pageTurn.style.zIndex = 20 - index;
-            }, 500) 
-        }
-        else {
-            pageTurn.classList.add('turn');
-            setTimeout(() =>{
-                pageTurn.style.zIndex = 20 + index;
-            }, 500)     
-        }
-    }
-})
-
-
-//Quand on clique sur le bouton contactez moi
-const pages = document.querySelectorAll('.book-page.page-right');
-const conctactezMoiBtn = document.querySelector('.btn.contact-me');
-
-conctactezMoiBtn.onclick = () => {
-    pages.forEach((pages, index) =>{
-        setTimeout(() => {
-            pages.classList.add('turn');
-
-            setTimeout(() => {
-                pages.style.zIndex = 20 + index;       
-            }, 500)
-
-        }, (index + 1) * 200 + 100)
-    })    
-}
-
-// créer une fonction d'index inversé 
-let totalPages = pages.length;
-let PageNumber = 0;
-
-function reverseIndex() {
-    PageNumber--;
-    if (PageNumber < 0) {
-        PageNumber = totalPages - 1;
-    }
-}
-
-// Quand on clique sur bouton back profil
-const backProfilBtn = document.querySelector('.back-profil');
-
-backProfilBtn.onclick = () => {
-    pages.forEach(( _, index) => {
-        setTimeout(() => {
-            reverseIndex();
-            pages[PageNumber].classList.remove('turn');
-
-            setTimeout(() => {
-                reverseIndex();
-                pages[PageNumber].style.zIndex =10 + index;
-            }, 500)
-
-        }, (index + 1) * 200 + 100)
-    })
-}
-
-//ouverture d'animation
-const coverRight = document.querySelector('.cover.cover-right');
-const pageLeft = document.querySelector('.book-page.page-left');
-
-
-//ouverture d'animation (cover right animation)
-setTimeout(() => {
-    coverRight.classList.add('turn');    
-}, 2100)
-
-setTimeout(() => {
-    coverRight.style.zIndex = -1;    
-}, 2800)
-//ouverture d'animation (page left ou page de profil animation)
-setTimeout(() => {
-    pageLeft.style.zIndex = 20;    
-}, 3200)
-
-//ouverture d'animation (toutes animations pages right)
-pages.forEach(( _, index) => {
-    setTimeout(() => {
-        reverseIndex();
-        pages[PageNumber].classList.remove('turn');
-
-        setTimeout(() => {
-            reverseIndex();
-            pages[PageNumber].style.zIndex =10 + index;
-        }, 500)
-
-    }, (index + 1) * 200 + 2100)
-})
-    </script>
+    <script src="port.js"></script>
 </body>
 </html>

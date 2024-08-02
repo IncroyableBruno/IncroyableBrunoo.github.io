@@ -16,15 +16,23 @@ html, body {
     
   }
   
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1.2rem;
+body {
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 1.2rem;
-  overflow: auto;
+  min-height: 95vh;
+  background: var(--bg-color);
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
 }
 
 .cover, .pages {

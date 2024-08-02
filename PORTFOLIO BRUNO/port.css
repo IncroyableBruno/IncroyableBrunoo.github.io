@@ -1,19 +1,64 @@
-*{
+/* Reset styles */
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
     font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-html, body {
+  }
+  
+  html, body {
     height: 100%;
-    overflow: hidden;
+    width: 100%;
+    overflow-x: hidden;
   }
   
   .wrapper {
-    overflow: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+  }
+  
+  .cover, .pages {
+    width: 50%;
+    height: 100%;
+    max-height: 100vh;
+  }
+  
+  .content {
+    max-width: 24rem;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .content a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .content a:hover {
+    background-color: #2c7a93;
   }
 :root {
     --bg-color: #f5f5f5;
@@ -30,19 +75,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
     background: var(--bg-color);
     color: var(--text-color);
     /* overflow: hidden; */
 }
-.wrapper {
+/* .wrapper {
     position: relative;
     width: 66rem;
     height: 42rem;
     padding: 2rem;
     perspective: 250rem;
     animation: show-animate 2s forwards;
-}
+} */
 
 @keyframes show-animate {
     0%,30% {
@@ -74,7 +119,7 @@ body{
 } 
 
 .cover.cover-right {
-    z-index: 100;
+    z-index: 1;
     transition: transform 1s cubic-bezier(
         .645, .045, .355, 1);
 }
@@ -314,7 +359,7 @@ body{
 
 .skills-box{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
 }
 .skills-box .skills-content {
@@ -421,7 +466,7 @@ body{
 
 .contact-box textarea {
     resize:none;
-    height: 15rem;
+    height: 10rem;
 }
 
 .contact-box .btn {

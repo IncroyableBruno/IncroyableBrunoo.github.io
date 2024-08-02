@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="port.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Portfolio bruno website</title>
+    <title>CV-NUMERIQUE-BRUNO</title>
 </head>
 <body>
     <div class="wrapper">
@@ -20,12 +20,18 @@
                    <h3>Développeur web</h3>
                    <div class="social-media">
                     <a href="#"><i class='bx bxl-instagram'></i></a>
-    <a href="https://www.linkedin.com/in/bruno-manuel-cordeiro-094292247"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://www.linkedin.com/in/bruno-manuel-cordeiro-094292247">
+                        <i class='bx bxl-linkedin-square'></i></a>
                     <a href="https://github.com/IncroyableBruno"><i class='bx bxl-github'></i></a>
                    </div>
-                   <p> Développeur web passionné, enquête constante d'apprentissage et d'amélioration.Spécialisé dans     les technologies front-end telles que HTML, CSS, JavaScript et les frameworks associés. Toujours curieux d'explorer     de nouveaux domaines et d'apprendre de nouvelles compétences. Aimant relever des défis et travailler en équipe, je     m'efforce de produire un travail de qualité et de contribuer activement à la communauté du développement web.</p>
+                   <p> Développeur web passionné, enquête constante d'apprentissage et d'amélioration.Spécialisé 
+                       dans les technologies front-end telles que HTML,
+                       CSS, JavaScript et les frameworks associés.
+                       Toujours curieux d'explorer de nouveaux domaines et d'apprendre de nouvelles compétences.
+                       Aimant relever des défis et travailler en équipe, je m'efforce de produire un travail de                                 qualité et de contribuer activement à la 
+                       communauté du développement web.</p>
                    <div class="btn-box">
-                    <a href="./cv/cv.pdf" class="btn">Télécharger CV</a>
+                    <a href="./cv/cv.pdf" class="btn"><i class='bx bx-cloud-download'></i>Télécharger CV</a>
                     <a href="#" class="btn contact-me">Contactez moi</a>
                    </div>
                 </div>
@@ -41,7 +47,7 @@
                             <h3>Développeur Web - Saga Décor</h3>
                             <p>Création  de site internet et gestion de base de données.
                             </p> 
-                        </div>   
+                        </div>          
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2022-2023</span>
                             <h3>ASSISTANT INFORMATIQUE - Oise Télécom</h3>
@@ -51,12 +57,12 @@
                             <span class="year"><i class='bx bxs-calendar'></i>2020-2022</span>
                             <h3>ANIMATEUR SCOLAIRE - La Fontaine</h3>
                             <p>Animateur au soutien scolaire et Accompagnement scolaire.</p>
-                        </div>                       
+                        </div>                      
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2017-2019</span>
                             <h3>DESIGNER GRAPHIQUE - Cfitel</h3>
-                <p>Création de logos, panneaux publicitaires, bannières, cartes de visite, flyers,  
-                            produits ou services.</p>
+                            <p>Création de logos, panneaux publicitaires, bannières, cartes de visite, flyers, 
+                                produits ou services.</p>
                         </div>
                     </div>
                     <span class="number-page">1</span>
@@ -64,7 +70,7 @@
                     <span class="nextprev-btn" data-page="turn-1">
                         <i class='bx bx-chevron-right'></i>
                     </span>
-                </div>               
+                </div>         
                  <!-- page 2 (formations) -->
                 <div class="page-back">
                     <h1 class="title"> Formation</h1>
@@ -78,12 +84,12 @@
                             <span class="year"><i class='bx bxs-calendar'></i>2023</span>
                             <h3>Titre Professionnel - SJT </h3>
                             <p>Développeur Web et Web Mobile RNCP Bac+2</p>
-                        </div>                      
+                        </div>                
                         <div class="workeduc-content">
                             <span class="year"><i class='bx bxs-calendar'></i>2014-2017</span>
                             <h3>Baccalauréat - ITEL</h3>
                             <p>Eléctronique et Télécommunications</p>
-                        </div>                        
+                        </div>             
                     </div>
                     <span class="number-page">2</span>
                     <!-- prev bouton -->
@@ -106,19 +112,19 @@
                            <a href="#" class="btn">Lire plus</a> 
                         </div>
                         <div class="job-content">
-                            <i class='bx bx-code-alt'></i>
+                            <i class='bx bx-desktop'></i>
                             <h3>Assistant Informatique</h3>
                             <p>Assistance en instalation  de logiciels informatique.</p>
                             <a href="#" class="btn">Lire plus</a> 
                          </div>
                          <div class="job-content">
-                            <i class='bx bx-bar-book-alt'></i>
+                            <i class='bx bx-book-open'></i>
                             <h3>Animateur Scolaire</h3>
                             <p>Animateur au soutien scolaire et Accompagnement.</p> 
                             <a href="#" class="btn">Lire plus</a> 
                          </div>
                          <div class="job-content">
-                            <i class='bx bx-search'></i>
+                            <i class='bx bxs-layer'></i>
                             <h3>Designer Graphique</h3>
                             <p>Création de logos, cartes de visite, flyers.</p>
                             <a href="#" class="btn">Lire plus</a>
@@ -146,7 +152,7 @@
                         <div class="skills-content">
                             <h3>BACK-End</h3>
                             <div class="content">
-                                <span><i class='bx bxl-reactjs'></i>React</span>
+                                <span><i class='bx bxl-react'></i>React</span>
                                 <span><i class='bx bxl-php'></i>PHP</span>
                                 <span><i class='bx bxl-sql'></i>SQL</span>
                                 <span><i class='bx bxl-sql'></i>NoSQL</span>
@@ -175,7 +181,7 @@
                     <div class="portfolio-box">
                         <div class="img-box">
                             <img src="./imgg/Afci.jpg" alt="">
-                        </div>                        
+                        </div>        
                         <div class="info-box">
                             <div class="info-title">
                                 <h3>Nom de Projet</h3>
@@ -183,7 +189,7 @@
                                 </i>Visualiser</a>
                             </div>
                             <p>Play'listen</p>
-                            </div>        
+                            </div>
                         <div class="btn-box">
                             <a href="https://github.com/IncroyableBruno/playbruno/tree/main/PLAY%20by%20BRUNOo"
                                 class="btn">Source code</a>
@@ -195,7 +201,7 @@
                     <span class="nextprev-btn" data-page="turn-3">
                         <i class='bx bx-chevron-right'></i>
                     </span>
-                </div>                   
+                </div>      
                 <!-- page 6 (contactez moi)  -->
                 <div class="page-back">
                     <h1 class="title">Contactez Moi!</h1>

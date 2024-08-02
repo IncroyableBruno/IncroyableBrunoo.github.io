@@ -15,7 +15,7 @@
             <!-- page de profil -->
             <div class="book-page page-left">
                 <div class="page-profil">
-                  <img src="./imgg/br3n.jpg" alt="mon image"> 
+                  <img src="br3n.jpg" alt="mon image"> 
                    <h1>Bruno M Cordeiro</h1>
                    <h3>Développeur web</h3>
                    <div class="social-media">
@@ -180,7 +180,7 @@
                     <h1 class="title">Dernier Projet</h1>
                     <div class="portfolio-box">
                         <div class="img-box">
-                            <img src="./imgg/Afci.jpg" alt="">
+                            <img src="Afci.jpg" alt="">
                         </div>        
                         <div class="info-box">
                             <div class="info-title">

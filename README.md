@@ -31,7 +31,7 @@
                        Aimant relever des défis et travailler en équipe, je m'efforce de produire un travail de                                 qualité et de contribuer activement à la 
                        communauté du développement web.</p>
                    <div class="btn-box">
-                    <a href="./cv/cv.pdf" class="btn"><i class='bx bx-cloud-download'></i>Télécharger CV</a>
+                    <a href="cv.pdf" class="btn"><i class='bx bx-cloud-download'></i>Télécharger CV</a>
                     <a href="#" class="btn contact-me">Contactez moi</a>
                    </div>
                 </div>

@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,9 @@ html, body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-  } 
+    
+  }
+  
 .wrapper {
     width: 100%;
     height: 100%;
@@ -20,12 +23,12 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 1.2rem;
-  } 
+  }
   
 .cover, .pages {
     width: 50%;
     height: 100%;
-    max-height: 80vh;
+    max-height: 100vh;
   }
   
 .content {
@@ -73,10 +76,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
     background: var(--bg-color);
     color: var(--text-color);
-    overflow: hidden; 
+    /* overflow: hidden; */
 }
 /* .wrapper {
     position: relative;
@@ -85,7 +88,7 @@ body{
     padding: 2rem;
     perspective: 250rem;
     animation: show-animate 2s forwards;
-}  */
+} */
 
 @keyframes show-animate {
     0%,30% {
@@ -135,7 +138,7 @@ body{
 .book .book-page{
     position: absolute;
     width: 50%;
-    height: 80%;
+    height: 100%;
     background: var(--pages-color);
     box-shadow: 0 0 .6rem rgba(0, 0, .1);
     display: flex;
@@ -242,7 +245,7 @@ body{
 
 .book-page .page-front,
  .book-page .page-back {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -507,6 +510,45 @@ body{
     transform: translateX(-50%) scale(1);
     top:-1.8rem ;
 }
+/* Styles for screens smaller than 768px (e.g. smartphones) */
+@media (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    .container {
+      padding: 20px;
+    }
+    
+    .button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Styles for screens larger than 768px (e.g. tablets, desktops) */
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+    
+    h1 {
+      font-size: 32px;
+    }
+    
+    .container {
+      padding: 40px;
+    }
+    
+    .button {
+      font-size: 16px;
+      padding: 15px 30px;
+    }
+  }
 
 
 

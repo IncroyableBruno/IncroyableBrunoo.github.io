@@ -1,4 +1,4 @@
-/* Reset styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -80,15 +80,6 @@ body{
     color: var(--text-color);
     /* overflow: hidden; */
 }
-/* .wrapper {
-    position: relative;
-    width: 66rem;
-    height: 42rem;
-    padding: 2rem;
-    perspective: 250rem;
-    animation: show-animate 2s forwards;
-} */
-
 @keyframes show-animate {
     0%,30% {
       opacity: 0;
